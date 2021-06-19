@@ -1,0 +1,38 @@
+@import '../../sass/index.scss';
+
+.iconBtn {
+  font: inherit;
+  margin-left: 0.5rem;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.input {
+  border-color: $colorBorder;
+  border-radius: 3px;
+  outline: none;
+  width: 20rem;
+
+  fieldset {
+    border: none;
+  }
+
+  input {
+    font: inherit;
+    font-size: 1.2rem;
+    padding: 1rem;
+    outline: none;
+  }
+}
+
+.noResize {
+  border: none;
+  font: inherit;
+  font-size: 1.2rem;
+  resize: none;
+  padding: 1rem;
+  outline: none;
+  width: 20rem;
+}
